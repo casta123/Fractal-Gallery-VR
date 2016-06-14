@@ -1,3 +1,3 @@
 # Fractal-Gallery-VR
 
-Proycto para Cardboard
+Proyecto para Cardboard
