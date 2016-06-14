@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &176968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 441056}
+  - 114: {fileID: 11439704}
+  - 65: {fileID: 6505912}
+  - 114: {fileID: 11435156}
+  m_Layer: 0
+  m_Name: 3DTree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &441056
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70, y: 6.28, z: 30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!65 &6505912
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15, y: 10, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11435156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18044e63decd144b869823758f86eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: 
+  textB: 4c6f7320c38172626f6c6573206672616374616c657320536520626173616e20656e206c612069646561206465206175746f73696d696c697475642e204361646120756e61206465206c61732072616d617320657320756e61207665727369c3b36e206dc3a173207065717565c3b1612064656c2074726f6e636f207072696e636970616c2064656c20c3a172626f6c2e204c612069646561207072696e636970616c207061726120637265617220c3a172626f6c6573206672616374616c65732065732074656e657220756e206f626a65746f2062617365207920656e746f6e636573206372656172206f626a65746f732073696d696c61726573206dc3a173207065717565c3b16f732070726f636564656e74657320646520657365206f626a65746f20696e696369616c2e20456c20c3a16e67756c6f2c206c61206c6f6e67697475642079206f747261732070726f7069656461646573206465206573746f7320e2809c68696a6f73e2809d2070756564656e2073657220616c6561746f72697a616461732070617261206f6274656e6572206173c3ad20756e61206170617269656e636961206dc3a173207265616c697374612e204573746520657320756e206dc3a9746f646f2072656375727369766f2c206c6f206375616c207369676e69666963612071756520736520636f6e74696ec3ba61207265616c697a616e646f20656e20636164612068696a6f20756e206ec3ba6d65726f2066696e69746f206465207061736f732e20536520626173616e20656e20656c206672616374616c206465206b6f63682020
+  icon: {fileID: 0}
+--- !u!114 &11439704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c0d77fca7baa74da1e1427f270221d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posX: 70
+  posY: 0
+  posZ: 30
+  depth: 6
+  angleSpread: 30
+  branchMat: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  averaged: 1
+  randomness: 0.5
+  treeLeaf: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 176968}
+  m_IsPrefabParent: 1
